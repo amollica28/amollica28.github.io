@@ -1,0 +1,111 @@
+/* Global styles for all pages */
+body {
+    background-color: #F0F8FF; /* AliceBlue */
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #4682B4; /* SteelBlue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+}
+
+/* Homepage header */
+.home-header h1 {
+    background-color: DarkGreen; /* OrangeRed */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Homepage paragraph */
+.home-paragraph {
+    background-color: #32CD32; /* LimeGreen */
+    padding: 15px;
+    color: #006400; /* DarkGreen */
+}
+
+/* About Me page header */
+.about-header h1 {
+    background-color: #8A2BE2; /* BlueViolet */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About Me page - Introduction */
+.about-intro {
+    background-color: #FFB6C1; /* LightPink */
+    padding: 15px;
+    color: #8B0000; /* DarkRed */
+}
+
+/* About Me page - Hobby section */
+.about-hobby {
+    background-color: #48D1CC; /* MediumTurquoise */
+    padding: 15px;
+    color: #2F4F4F; /* DarkSlateGray */
+}
+
+/* Contact page header */
+.contact-header h1 {
+    background-color: #DC143C; /* Crimson */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact page form styles */
+form label {
+    color: #2E8B57; /* SeaGreen */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#name {
+    background-color: #FFFACD; /* LemonChiffon */
+}
+
+#email {
+    background-color: #E0FFFF; /* LightCyan */
+}
+
+#subject {
+    background-color: #F5DEB3; /* Wheat */
+}
+
+#message {
+    background-color: #FFE4E1; /* MistyRose */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #6A5ACD; /* SlateBlue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #483D8B; /* DarkSlateBlue */
+}
+
